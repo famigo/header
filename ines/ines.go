@@ -19,3 +19,11 @@ type (
 	//Vertical = 1
 	MIR byte
 )
+
+//Default value
+const (
+	DefaultPRG = PRG(2)
+	DefaultCHR = CHR(1)
+	DefaultMAP = MAP(0)
+	DefaultMIR = MIR(1)
+)

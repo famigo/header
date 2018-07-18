@@ -28,3 +28,14 @@ type (
 	//CHRBRAM defines the amount of battery backed CHR RAM in NES ROM
 	CHRBRAM byte
 )
+
+//Default value
+const (
+	DefaultCHRRAM  = CHRRAM(0)
+	DefaultPRGRAM  = PRGRAM(0)
+	DefaultSUB     = SUB(0)
+	DefaultTV      = TV(0)
+	DefaultVS      = VS(0)
+	DefaultBRAM    = BRAM(0)
+	DefaultCHRBRAM = CHRBRAM(0)
+)
